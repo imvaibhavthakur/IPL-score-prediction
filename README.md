@@ -31,13 +31,13 @@ Dataset Used: ipl_data.csv
 * runs - runs scored
 * wickets - wickets
 * overs - overs - next 3 are based on this
-
-**Streamlit App:**
-
-![](streamlit app/ipl_score_predictor.gif)
 * run_last_5 - runs scored in last 5 overs
 * wicket_last_5 - wickets in last 5 overs
 * stricker - batsman playing as main 1
 * non-striker - batsman playing as runner up - not main 0
 * total - total score (target variable)
+
+**Streamlit App:**
+
+![](https://github.com/imvaibhavthakur/IPL-score-prediction/blob/main/streamlit%20app/ipl_score_predictor.gif)
 
