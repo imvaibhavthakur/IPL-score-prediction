@@ -15,7 +15,7 @@ model = pickle.load(open(filename,'rb'))
 
 #Title of the page with CSS
 
-st.markdown("<h1 style='text-align: center; color: white;'> IPL Score Predictor 2024 </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'> IPL ScoreWizard 2024 </h1>", unsafe_allow_html=True)
 
 #Add background image
 
