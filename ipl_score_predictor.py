@@ -15,7 +15,7 @@ model = pickle.load(open(filename,'rb'))
 
 #Title of the page with CSS
 
-st.markdown("<h1 style='text-align: center; color: white;'> IPL Score Predictor 2022 </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: white;'> IPL Score Predictor 2024 </h1>", unsafe_allow_html=True)
 
 #Add background image
 
@@ -23,9 +23,9 @@ st.markdown(
          f"""
          <style>
          .stApp {{
-             background-image: url("https://4.bp.blogspot.com/-F6aZF5PMwBQ/Wrj5h204qxI/AAAAAAAABao/4QLn48RP3x0P8Ry0CcktxilJqRfv1IfcACLcBGAs/s1600/GURU%2BEDITZ%2Bbackground.jpg");
-             background-attachment: fixed;
-             background-size: cover
+             # background-image: url("https://4.bp.blogspot.com/-F6aZF5PMwBQ/Wrj5h204qxI/AAAAAAAABao/4QLn48RP3x0P8Ry0CcktxilJqRfv1IfcACLcBGAs/s1600/GURU%2BEDITZ%2Bbackground.jpg");
+             # background-attachment: fixed;
+             # background-size: cover
          }}
          </style>
          """,
