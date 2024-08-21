@@ -41,15 +41,15 @@ st.info("""A Simple ML Model to predict IPL Scores between teams in an ongoing m
 # SELECT THE BATTING TEAM
 
 
-batting_team= st.selectbox('Select the Batting Team ',('Chennai Super Kings', 'Delhi Daredevils', 'Kings XI Punjab','Kolkata Knight Riders','Mumbai Indians','Rajasthan Royals','Royal Challengers Bangalore','Sunrisers Hyderabad'))
+batting_team= st.selectbox('Select the Batting Team ',('Chennai Super Kings', 'Delhi Capitals', 'Punjab Kings','Kolkata Knight Riders','Mumbai Indians','Rajasthan Royals','Royal Challengers Bangalore','Sunrisers Hyderabad'))
 
 prediction_array = []
   # Batting Team
 if batting_team == 'Chennai Super Kings':
     prediction_array = prediction_array + [1,0,0,0,0,0,0,0]
-elif batting_team == 'Delhi Daredevils':
+elif batting_team == 'Delhi Capitals':
     prediction_array = prediction_array + [0,1,0,0,0,0,0,0]
-elif batting_team == 'Kings XI Punjab':
+elif batting_team == 'Punjab Kings':
     prediction_array = prediction_array + [0,0,1,0,0,0,0,0]
 elif batting_team == 'Kolkata Knight Riders':
     prediction_array = prediction_array + [0,0,0,1,0,0,0,0]
@@ -67,15 +67,15 @@ elif batting_team == 'Sunrisers Hyderabad':
 
 #SELECT BOWLING TEAM
 
-bowling_team = st.selectbox('Select the Bowling Team ',('Chennai Super Kings', 'Delhi Daredevils', 'Kings XI Punjab','Kolkata Knight Riders','Mumbai Indians','Rajasthan Royals','Royal Challengers Bangalore','Sunrisers Hyderabad'))
+bowling_team = st.selectbox('Select the Bowling Team ',('Chennai Super Kings', 'Delhi Capitals', 'Punjab Kings','Kolkata Knight Riders','Mumbai Indians','Rajasthan Royals','Royal Challengers Bangalore','Sunrisers Hyderabad'))
 if bowling_team==batting_team:
     st.error('Bowling and Batting teams should be different')
 # Bowling Team
 if bowling_team == 'Chennai Super Kings':
     prediction_array = prediction_array + [1,0,0,0,0,0,0,0]
-elif bowling_team == 'Delhi Daredevils':
+elif bowling_team == 'Delhi Capitals':
     prediction_array = prediction_array + [0,1,0,0,0,0,0,0]
-elif bowling_team == 'Kings XI Punjab':
+elif bowling_team == 'Punjab Kings':
     prediction_array = prediction_array + [0,0,1,0,0,0,0,0]
 elif bowling_team == 'Kolkata Knight Riders':
     prediction_array = prediction_array + [0,0,0,1,0,0,0,0]
